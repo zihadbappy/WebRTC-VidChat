@@ -9,11 +9,11 @@ var roomname = roomInput.value
 var rtcPeerConnection
 var userStream
 
-const iceServers = {
+async const iceServers = {
   iceServers: [
     // { urls: 'stun:stun.services.mozilla.com' },
     // { urls: 'stun:stun.l.google.com:19302' },
-    // { urls: 'stun:stun1.l.google.com:19302' },
+    // { urls: 'stun:stun1.l.google.com`:19302' },
     // { urls: 'stun:stun3.l.google.com:19302' },
     // { urls: 'stun:stun4.l.google.com:19302' },
     // { urls: 'stun:stun.ekiga.net' },
@@ -39,7 +39,7 @@ userVideo.muted = 'muted'
 // roomDiv.style="display:none"
 var creator = false
 
-joinButton.addEventListener('click', function () {
+await joinButton.addEventListener('click', function () {
   console.log('Room Name:', roomInput.value)
   if (roomInput.value == '') {
     alert('Please enter a room name')
