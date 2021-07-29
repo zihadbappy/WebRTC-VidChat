@@ -18,7 +18,10 @@ const iceServers = {
     { urls: 'stun:stun4.l.google.com:19302' },
     { urls: 'stun:stun.ekiga.net' },
     {
-      urls: 'turn:3.140.252.7:3478',
+      urls: [       
+        'turn:3.140.252.7:3478?transport=udp',       
+        'turn:3.140.252.7:3478?transport=tcp',       
+       ],
       username: 'zihad',
       credential: '1234',
     },
