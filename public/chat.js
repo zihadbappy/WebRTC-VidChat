@@ -20,12 +20,12 @@ const iceServers = {
     {
       urls: 'turn:3.140.252.7:3478?transport=tcp',
       username: 'zihad',
-      credential: '1234',
+      credential: '12345',
     },
     {
       urls: 'turn:3.140.252.7:3478?transport=udp',
       username: 'zihad',
-      credential: '1234',
+      credential: '12345',
     }
     // {urls: "stun:stun.ideasip.com"},
     // {urls: "stun:stun.iptel.org"},
