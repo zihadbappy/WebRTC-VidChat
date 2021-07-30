@@ -32,6 +32,11 @@ const iceServers = {
       username: 'zihad',
       credential: '1234',
     },
+    {
+      urls: 'turn:3.140.252.7:3479',
+      username: 'zihad',
+      credential: '1234',
+    },
   ],
 }
 
