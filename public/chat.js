@@ -19,6 +19,7 @@ const iceServers = {
     { urls: 'stun:stun.ekiga.net' },
     {
       urls: 'turn:3.140.252.7:3478',
+      url:'turn:3.140.252.7:3478',
       username: 'zihad',
       credential: '1234',
     },
