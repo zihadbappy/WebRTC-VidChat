@@ -26,9 +26,13 @@ const iceServers = {
   ],
 }
 
-var nnn = 'Nig'
 
-userVideo.muted = 'muted'
+userVideo.muted = true
+userVideo.playsInline = true
+userVideo.autoplay = true
+peerVideo.muted = true
+peerVideo.playsInline = true
+peerVideo.autoplay = true
 // var roomDiv = document.getElementById("room-div")
 // roomDiv.style="display:none"
 var creator = false
