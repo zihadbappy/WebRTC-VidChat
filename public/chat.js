@@ -11,23 +11,23 @@ var userStream
 
 const iceServers = {
   iceServers: [
-    { urls: ['stun:stun.services.mozilla.com'] },
-    { urls: ['stun:stun.l.google.com:19302' ]},
+    { urls: 'stun:stun.services.mozilla.com' },
+    { urls: 'stun:stun.l.google.com:19302' },
     {
-      urls: 'turn:3.140.252.7:3478?transport=udp',
-      url: 'turn:3.140.252.7:3478?transport=udp',
+      urls: 'turn:3.109.143.62:3478?transport=udp',
+      url: 'turn:3.109.143.62:3478?transport=udp',
       username: 'zihad',
       credential: '1234',
     },
     {
-      urls: 'turn:3.140.252.7:3478?transport=tcp',
-      url: 'turn:3.140.252.7:3478?transport=tcp',
+      urls: 'turn:3.109.143.62:3478?transport=tcp',
+      url: 'turn:3.109.143.62:3478?transport=tcp',
       username: 'zihad',
       credential: '1234',
     },
     {
-      urls: 'turn:3.140.252.7:443?transport=tcp',
-      url: 'turn:3.140.252.7:443?transport=tcp',
+      urls: 'turn:3.109.143.62:443?transport=tcp',
+      url: 'turn:3.109.143.62:443?transport=tcp',
       username: 'zihad',
       credential: '1234',
     },
